@@ -24,7 +24,8 @@
 .owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
 	position: relative;
-	width: 100%;
+	width: 90%;
+	left:5%;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
@@ -40,6 +41,13 @@
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
 	cursor: pointer;
+	background:#4d8239;
+	color: white;
+	width:50px;
+	height: 50px;
+	line-height: 50px;
+	
+
 }
 .owl-controls {
 	-webkit-user-select: none;
@@ -47,12 +55,42 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	position: absolute;
+	
+	
+	
+	
+	
+	top:150px;
+	color:#5e8e3b;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 190%;
+	height: 200%;
+	
+	
+}
+.owl-prev
+{
+	
+margin-right: 100%;
+	left: 90%;
+	margin-top: 30px;
+	
+
+}
+.owl-next
+{
+	margin-top: 10px;
+	bottom:96%;
+	position: absolute;
+	
+	
+	
 }
 
 /* mouse grab icon */
 .grabbing { 
-    cursor:url("http://themewinter.com/html/dart/multipage/css/grabbing.png") 8 8, move;
+    cursor:url("http://themewinter.com/html/dart/multipage/css/grabbing.png") 9 9, move;
 }
 
 /* fix */
@@ -61,8 +99,11 @@
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;
-  -webkit-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(,0,0);
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
 }
-
+.owl-buttons
+{
+	color:red;
+}
