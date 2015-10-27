@@ -13,7 +13,7 @@
 }
 .fa {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px/3.4 FontAwesome; /*modified by maher from 1 to 3.4*/
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
