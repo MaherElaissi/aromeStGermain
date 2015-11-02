@@ -3,6 +3,7 @@
     <?php include 'content/header.html';?>
 </head>
 <body>
+    <?php include_once("analyticstracking.php") ?>
     <div class="body-inner">
 	<!-- Header start -->
         <?php include 'content/bodyHeader.html';?>
